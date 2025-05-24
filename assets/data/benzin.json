@@ -1,0 +1,294 @@
+
+{
+	"allowSleep" : true,
+	"autoClearForces" : true,
+	"body" : 
+	[
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -3.814697265625000e-006,
+							"y" : -1.144409179687500e-005
+						},
+						"radius" : 2.483602523803711
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture2",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "ora_piros",
+			"position" : 
+			{
+				"x" : 13.42791748046875,
+				"y" : 167.4392700195313
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 0,
+						"radius" : 0.5815059542655945
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture3",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "mutato",
+			"position" : 
+			{
+				"x" : 14.93750,
+				"y" : 54.0
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -3.814697265625000e-006,
+							"y" : -1.144409179687500e-005
+						},
+						"radius" : 2.483602523803711
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture2",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "ora",
+			"position" : 
+			{
+				"x" : 14.9448995590210,
+				"y" : 55.0
+			},
+			"type" : 1
+		}
+	],
+	"collisionbitplanes" : 
+	{
+		"names" : 
+		[
+			"bitplane1",
+			"bitplane2",
+			"bitplane3",
+			"bitplane4",
+			"bitplane5",
+			"bitplane6",
+			"bitplane7",
+			"bitplane8",
+			"bitplane9",
+			"bitplane10",
+			"bitplane11",
+			"bitplane12",
+			"bitplane13",
+			"bitplane14",
+			"bitplane15",
+			"bitplane16",
+			"bitplane17",
+			"bitplane18",
+			"bitplane19",
+			"bitplane20",
+			"bitplane21",
+			"bitplane22",
+			"bitplane23",
+			"bitplane24",
+			"bitplane25",
+			"bitplane26",
+			"bitplane27",
+			"bitplane28",
+			"bitplane29",
+			"bitplane30",
+			"bitplane31",
+			"bitplane32"
+		]
+	},
+	"continuousPhysics" : true,
+	"gravity" : 
+	{
+		"x" : 0,
+		"y" : -10
+	},
+	"image" : 
+	[
+		
+		{
+			"aspectScale" : 1,
+			"body" : 0,
+			"center" : 
+			{
+				"x" : -0.008543723262846470,
+				"y" : -0.001744760666042566
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.339555025100708,
+					3.322467565536499,
+					3.322467565536499,
+					-3.339555025100708
+				],
+				"y" : 
+				[
+					-3.365095853805542,
+					-3.365095853805542,
+					3.361606359481812,
+					3.361606359481812
+				]
+			},
+			"file" : "benzinora_piros.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.339555025100708,
+				-3.365095853805542,
+				3.322467565536499,
+				-3.365095853805542,
+				3.322467565536499,
+				3.361606359481812,
+				-3.339555025100708,
+				3.361606359481812
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 29.0,
+			"scale" : 6.726702213287354
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 2,
+			"center" : 
+			{
+				"x" : -0.008543723262846470,
+				"y" : -0.001744760666042566
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.339555025100708,
+					3.322467565536499,
+					3.322467565536499,
+					-3.339555025100708
+				],
+				"y" : 
+				[
+					-3.365095853805542,
+					-3.365095853805542,
+					3.361606359481812,
+					3.361606359481812
+				]
+			},
+			"file" : "benzinora.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.339555025100708,
+				-3.365095853805542,
+				3.322467565536499,
+				-3.365095853805542,
+				3.322467565536499,
+				3.361606359481812,
+				-3.339555025100708,
+				3.361606359481812
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 29.0,
+			"scale" : 6.726702213287354
+		},
+		
+		{
+			"angle" : -0.6800034642219544,
+			"aspectScale" : 1,
+			"body" : 1,
+			"center" : 
+			{
+				"x" : -0.6780897378921509,
+				"y" : 0.5412499308586121
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-2.231275320053101,
+					0.09220992773771286,
+					0.8750957846641541,
+					-1.448389410972595
+				],
+				"y" : 
+				[
+					0.9966536164283752,
+					-0.8822725415229797,
+					0.08584626764059067,
+					1.964772343635559
+				]
+			},
+			"file" : "mutato.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-2.231275320053101,
+				0.9966536164283752,
+				0.09220992773771286,
+				-0.8822725415229797,
+				0.8750957846641541,
+				0.08584626764059067,
+				-1.448389410972595,
+				1.964772343635559
+			],
+			"name" : "image3",
+			"opacity" : 1,
+			"renderOrder" : 30.0,
+			"scale" : 1.245055913925171
+		}
+	],
+	"positionIterations" : 3,
+	"stepsPerSecond" : 60.0,
+	"subStepping" : false,
+	"velocityIterations" : 8,
+	"warmStarting" : true
+}
